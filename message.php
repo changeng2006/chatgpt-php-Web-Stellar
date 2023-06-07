@@ -5,7 +5,7 @@ header( "Content-Type: application/json" );
 $context = json_decode( $_POST['context'] ?? "[]" ) ?: [];
 
 //$open_ai_key =$_POST['key']?:'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';
-$open_ai_key =$_POST['key']?:'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';
+$open_ai_key =$_POST['key']?:'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';
 
 if(!empty($_GET['balance'])){
     if(empty($_POST['key'])){
