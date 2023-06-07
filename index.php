@@ -43,11 +43,11 @@
         <header class="layout-header">
             <div class="container" data-flex="main:justify cross:start">
                 <div class="header-logo">
-                    <h2 class="logo"><a class="links" id="clean" title="清空对话信息"><span class="logo-title">清空对话信息</span></a></h2>
+                    <h2 class="logo"><a class="links" id="clean" title="清空对话信息"><span class="logo-title">Clear chat</span></a></h2>
                 </div>
                 <div class="header-logo">
-                    <h2 class="logo"><a class="links" href="https://github.com/dirk1983/chatgpt"><span class="logo-title">获取源码</span></a></h2>
-                </div>
+                    <h2 class="logo"><a class="links" href="https://github.com/changeng2006/chatgpt-php-Web-Stellar"><span class="logo-title">Get Source</span></a></h2>
+                </div>Get
             </div>
         </header>
         <div class="layout-content">
@@ -55,11 +55,12 @@
                 <article class="article" id="article">
                     <div class="article-box">
                         <div class="precast-block" data-flex="main:left">
-                        
+                        <!--
                             <div class="input-group">
                                 <span style="text-align: center;color:#9ca2a8">&nbsp;&nbsp;API-KEY&nbsp;&nbsp;</span>
                                 <input type="password" id="key" style="border:1px solid grey;display:block;max-width:270px;width:calc(100% - 70px);" onload="this.focus();">
                             </div>
+-->
                             <div class="input-group">
                                 <span style="text-align: center;color:#9ca2a8">&nbsp;&nbsp;连续对话：</span>
                                 <input type="checkbox" id="keep" checked="" style="min-width:220px;">
